@@ -16,7 +16,7 @@ async function getWeatherData(city) {
         displayWeatherData(data);
     } catch (error) {
         console.error('Error fetching weather data:', error);
-        alert('Could not fetch weather data. Please try again.');
+        alert('Could not fetch weather data. Please try again :(');
     }
 }
 
@@ -46,7 +46,7 @@ locationButton.addEventListener('click', () => {
             alert('Could not get your location. Please enable location services.');
         });
     } else {
-        alert('Geolocation is not supported by your browser.');
+        alert('Geolocation is not supported by your browser :(');
     }
 });
 
@@ -58,6 +58,6 @@ async function getWeatherDataByCoords(latitude, longitude) {
         displayWeatherData(data);
     } catch (error) {
         console.error('Error fetching weather data:', error);
-        alert('Could not fetch weather data. Please try again.');
+        alert('Could not fetch weather data. Please try again :(');
     }
 }
