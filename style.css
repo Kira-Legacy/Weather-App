@@ -2,7 +2,6 @@ body {
     font-family: sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
@@ -17,19 +16,40 @@ body {
 }
 
 .container h1 {
-    color: white;
+    color: black;
+    font-size: 5rem;
 }
 
 .location-input {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttondiv{
+    margin-top: 1.5rem;
+}
+
+.location-input button{
+    font-size: 1.4rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .location-input #cityInput {
-    height: 20px;
+    height: 40px;
+    font-size: 1.45rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.buttondiv #searchButton{
+    margin-right: 20px;
 }
 
 #weather-data {
     margin-top: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
