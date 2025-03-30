@@ -19,6 +19,12 @@ body {
     font-size: 5rem;
 }
 
+.location-input {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
 .location-input #cityInput {
     height: 40px;
     font-size: 1.45rem;
@@ -31,13 +37,7 @@ body {
     margin-top: 1.5rem;
 }
 
-.location-input {
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.location-input button {
+.buttondiv button {
     font-size: 1.4rem;
     border: 1px solid white;
     border-radius: 10px;
