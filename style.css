@@ -4,37 +4,19 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    padding: 0;
     background-image: url('weather.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .container {
-    padding: 20px;
     text-align: center;
 }
 
 .container h1 {
     color: black;
     font-size: 5rem;
-}
-
-.location-input {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.buttondiv{
-    margin-top: 1.5rem;
-}
-
-.location-input button{
-    font-size: 1.4rem;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 5px;
 }
 
 .location-input #cityInput {
@@ -44,8 +26,26 @@ body {
     border: 1px solid white;
     border-radius: 10px;
 }
-.buttondiv #searchButton{
-    margin-right: 20px;
+
+.buttondiv {
+    margin-top: 1.5rem;
+}
+
+.location-input {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-input button {
+    font-size: 1.4rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.buttondiv #searchButton {
+    margin-right: 5px;
 }
 
 #weather-data {
