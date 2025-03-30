@@ -13,21 +13,21 @@
         <h1>Weather App</h1>
         <div class="location-input">
 
-            <doiv class="inputdiv">
+            <div class="inputdiv">
                 <input type="text" id="cityInput" placeholder="Enter city name">
+            </div>
+            <div class="buttondiv">
+                <button id="searchButton">Search</button>
+                <button id="locationButton">Use My Location</button>
+            </div>
         </div>
-        <div class="buttondiv">
-            <button id="searchButton">Search</button>
-            <button id="locationButton">Use My Location</button>
+        <div id="weather-data">
+            <p id="city"></p>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
         </div>
-    </div>
-    <div id="weather-data">
-        <p id="city"></p>
-        <p id="temperature"></p>
-        <p id="description"></p>
-        <p id="humidity"></p>
-        <p id="wind"></p>
-    </div>
     </div>
     <script src="script.js"></script>
 </body>
