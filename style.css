@@ -15,14 +15,16 @@ body {
     padding: 20px;
     text-align: center;
 }
-.container h1{
+
+.container h1 {
     color: white;
 }
+
 .location-input {
     margin-bottom: 20px;
 }
 
-.location-input #cityInput{
+.location-input #cityInput {
     height: 20px;
 }
 
