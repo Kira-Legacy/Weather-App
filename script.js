@@ -58,6 +58,6 @@ async function getWeatherDataByCoords(latitude, longitude) {
         displayWeatherData(data);
     } catch (error) {
         console.error('Error fetching weather data:', error);
-        alert('Could not fetch weather data. Please try again :(');
+        alert('Could not fetch weather data. Please try again by refreshing the page :(');
     }
 }
